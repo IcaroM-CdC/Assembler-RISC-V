@@ -10,7 +10,7 @@
 
 ## General registers
 
-The RV32I base integer ISA includes 32 registers, named `x0` to `x31`. The
+The RV64I base integer ISA includes 32 registers with 64 bits wide, named `x0` to `x31`. The
 program counter `PC` is separate from these registers, in contrast to other
 processors such as the ARM-32. The first register, `x0`, has a special function:
 Reading it always returns 0 and writes to it are ignored. As we will see later,
