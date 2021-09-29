@@ -237,7 +237,7 @@ will provide them.
 </table>
 
 
-_Registers of the RV32I. Based on RISC-V documentation and Patterson and
+_Registers of the RV64I. Based on RISC-V documentation and Patterson and
 Waterman "The RISC-V Reader" (2017)_
 
 As a general rule, the **saved registers** `s0` to `s11` are preserved across
@@ -251,7 +251,7 @@ detail.
 <br>
 
 ## 🛠 The assembler
-The assembler are developed in c++ 14, using boost library. The assembler supports some of RISC-V RV32LI instructions
+The assembler are developed in c++ 14, using boost library. The assembler supports some of RISC-V RV64I instructions
 
 <br>
 <br>
